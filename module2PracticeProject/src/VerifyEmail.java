@@ -26,6 +26,7 @@ public class VerifyEmail {
 			System.out.println(email+" is present");
 		else 
 			System.out.println(email+" is not present");
+		sc.close();
 	}
 
 }
