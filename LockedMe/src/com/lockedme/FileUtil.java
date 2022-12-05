@@ -5,8 +5,8 @@ import java.io.IOException;
 import java.util.Arrays;
 
 public class FileUtil {
-	//change the pathname accordingly
 	
+	//change the pathname accordingly
 	String filePath = "C:\\Temp";
 	File[] files;
 	public FileUtil() {
@@ -57,7 +57,7 @@ public class FileUtil {
 				} 
 			}
 		}
-		System.out.println("\nCould not delete the file\n");
+		System.out.println("\nFile not found\n");
 	}
 
 	//searched for the specified file

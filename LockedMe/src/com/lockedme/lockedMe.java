@@ -9,7 +9,7 @@ public class lockedMe {
 		int ch;
 		Scanner sc = new Scanner(System.in);
 		do {
-			System.out.println("1.Add File");
+			System.out.println("\n1.Add File");
 			System.out.println("2.Delete File");
 			System.out.println("3.Display File");
 			System.out.println("4.Search File");
